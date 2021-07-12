@@ -81,7 +81,7 @@ class kakao:
 
 k = kakao()
 k.RefreshToken()
-k.SendMSG("카카오 나에게 보내기123")
+k.SendMSG("카카오 나에게 보내기12432343")
 #https://kauth.kakao.com/oauth/authorize?client_id={REST_API 앱키를 입력하세요}&response_type=code&redirect_uri=https://localhost.com
 #https://kauth.kakao.com/oauth/authorize?client_id=b052a914d2157cbbfd00f0d04356a3a6&response_type=code&redirect_uri=https://localhost.com
 get_accesstoken_url='https://kauth.kakao.com/oauth/authorize?client_id=' + k.rest_api + '&response_type=code&redirect_uri=https://localhost.com'
